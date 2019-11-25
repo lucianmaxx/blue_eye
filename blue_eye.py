@@ -52,7 +52,7 @@ company = target.partition('.')
 comp = company[0]
 time.sleep(1)
 
-print "\n"
+print ("\n")
 havekey = raw_input("[+] \033[34mDo you have a Shodan API key \033[0m(Y/N) ").strip()
 
 
